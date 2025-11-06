@@ -1,6 +1,6 @@
 # 🌸 Projeto AG2 — Classificação de Íris (Inatel)
 
-Este repositório contém o trabalho prático **AG2** da disciplina de Engenharia de Software/Computação — Inatel (2º semestre de 2025).
+Este repositório contém o trabalho prático **AG2** da disciplina de Engenharia de Software.
 O objetivo é treinar, avaliar e disponibilizar um modelo de Machine Learning capaz de classificar flores do gênero *Iris* com base em suas medidas.
 
 ---
@@ -52,7 +52,7 @@ source venv/bin/activate
 Após ativar, o prompt ficará parecido com:
 
 ```
-(venv) C:\Users\Felipe\OneDrive - Instituto Nacional de Telecomunicações\Inatel\AG2>
+(venv) C:\Users\yourName\...
 ```
 
 ### 3) Instalar dependências
@@ -73,7 +73,7 @@ matplotlib==3.8.1
 seaborn==0.12.2
 ```
 
-### 4) Instalar Jupyter e registrar o kernel (opcional)
+### 4) Instalar Jupyter e registrar o kernel (opcional, mas interessante essa interação)
 
 ```cmd
 pip install jupyter ipykernel
@@ -86,20 +86,7 @@ python -m ipykernel install --user --name=venv --display-name "Python (venv)"
 jupyter notebook
 ```
 
-O navegador abrirá em algo como `http://localhost:8888/tree`. Abra o notebook do projeto (`iris_classification.ipynb`) e selecione o kernel `Python (venv)` se necessário.
-
-### Verificar qual Python o Jupyter está usando
-
-Dentro de uma célula do notebook, execute:
-
-```python
-import sys
-print(sys.executable)
-```
-
-No Windows o caminho esperado deve apontar para `...\\AG2\\venv\\Scripts\\python.exe`.
-
----
+O navegador abrirá em algo como `http://localhost:8888/tree`. Abra o notebook do projeto (`iris_classification.ipynb`) e selecione o kernel `Python (venv)` se necessário. Dessa forma, você poderá navegar pelo projeto em uma interface parecida com o GitHub, porém, interativa!!! 🤩
 
 ## ▶️ Execução do projeto
 
@@ -110,16 +97,6 @@ No notebook principal (ex.: `iris_classification.ipynb`) as etapas executadas s�
 3. Treinamento e avaliação do modelo (por exemplo, KNN).
 4. Exibição de métricas e matriz de confusão.
 5. Testes de predição em amostras arbitrárias.
-
----
-
-## 🎥 Requisitos de entrega (AG2)
-
-- Gravar um vídeo de até 7 minutos explicando as etapas do projeto.
-- Entregar o projeto via repositório público no GitHub ou um arquivo `.zip` com o link do vídeo (Google Drive / OneDrive).
-- Garantir acesso ao vídeo para o e-mail: `renzo@inatel.br`.
-
----
 
 ## 👨‍💻 Autores
 
